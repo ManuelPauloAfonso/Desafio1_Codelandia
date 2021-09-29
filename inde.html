@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/style.css">
+    <title>BLog-home</title>
+</head>
+<body>
+    <div class="header">
+  
+        <div class="header-wrapper">
+            <div class="logo">
+                <span class="logo-text">Codelandia</span>
+                <span class="logo-text1">Blog</span>
+
+            </div>
+            <div class="input-logo">
+                <div class="input-icone">
+                    <img src="assets/images/pesquisa logo.png" alt="">
+                </div>
+                <input type="search" class="input" placeholder="Pesquisar no Blog">
+            </div>
+        </div>  
+    </div>
+    <section class="cards">
+        <div class="container-card">
+            <div class="container-card1">
+                <div class="card1">
+                    <div class="elemente">
+                        <span class="date">02 de julho de 2021</span>
+                        <img src="assets/images/love.png" alt="">
+
+                    </div>
+                    <h3>Agora é oficial: o Windows 11 está vindo</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. <br> Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.</p>
+                </div>
+            </div>
+            <div class="container-card1">
+                <div class="card1">
+                    <div class="elemente">
+                        <span class="date">02 de julho de 2021</span>
+                        <img src="assets/images/love.png" alt="">
+
+                    </div>
+                    <h3>Tim Berners-Lee vai leiloar código-fonte da web</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. <br> Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.</p>
+                </div>
+            </div>
+            <div class="container-card1">
+                <div class="card1">
+                    <div class="elemente">
+                        <span class="date">02 de julho de 2021</span>
+                        <img src="assets/images/love.png" alt="">
+
+                    </div>
+                    <h3>Tem Firefox novo no pedaço e você vai querer migrar</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. <br> Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.</p>
+                </div>
+            </div>
+            <div class="container-card1">
+                <div class="card1">
+                    <div class="elemente">
+                        <span class="date">02 de julho de 2021</span>
+                        <img src="assets/images/love.png" alt="">
+
+                    </div>
+                    <h3 class="title">John McAfee, criador do antivírus McAfee, morre</h3>
+                    <p class="description">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vestibulum vestibulum auctor est. <br> Nam vitae finibus ante. Duis lobortis tellus vel diam fringilla, eu ullamcorper ex iaculis.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+<script src="https://unpkg.com/scrollreveal">
+     
+     const sr = ScrollReveal({
+            origin: 'top',
+            distance: '50px',
+            duration: 2000,
+            reset: true
+        });
+
+        ScrollReveal().reveal('.container-card1', { delay: 200 });
+        ScrollReveal().reveal('.element', { delay: 400 });
+        ScrollReveal().reveal('.title', { delay: 500 });
+        ScrollReveal().reveal('.description', { delay: 600 });
+
+</script>  
+</body>
+</html>
